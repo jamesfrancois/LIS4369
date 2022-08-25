@@ -1,4 +1,4 @@
-# LIS4331 Advanced Mobile Application Development
+# LIS4369 Extensible Enterprise Solutions
 
 ## James Francois
 
