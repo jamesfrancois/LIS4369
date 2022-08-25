@@ -7,9 +7,9 @@
 *Course Work Links:*
 
 1. [A1 README.md](a1/README.md "My A1 README.md file")
-   - Screenshot of a1_tip_calculator application running using IDLE;
-   - Screenshot of a1_tip_calculator application running using Visual Studio Code;
-   - Screenshot of a1_tip_calculator application running using Jupyter Notebook;
+    - Screenshot of a1_tip_calculator application running using IDLE
+    - Screenshot of a1_tip_calculator application running using Visual Studio Code
+    - Screenshot of a1_tip_calculator application running using Jupyter Notebook
 
 2. [A2 README.md](a2/README.md "My A2 README.md file")
     - TBD
