@@ -10,6 +10,7 @@
     - Screenshot of a1_tip_calculator application running using IDLE
     - Screenshot of a1_tip_calculator application running using Visual Studio Code
     - Screenshot of a1_tip_calculator application running using Jupyter Notebook
+    - List of git commands
 
 2. [A2 README.md](a2/README.md "My A2 README.md file")
     - TBD
