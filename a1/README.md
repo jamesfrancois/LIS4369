@@ -3,7 +3,7 @@
 >Also, this file **must** use Markdown syntax, and provide project documentation as per below--otherwise, points **will** be deducted.
 >
 
-# LIS 4381
+# LIS 4369
 
 ## James Francois
 
@@ -12,15 +12,15 @@
 *Sub-Heading:*
 
 1. Git commands w/short descriptions
-2. Screenshots of PHP
-3. Screenshots of JDK running 
-4. Screenshots of My First App running 
+2. Screenshot of a1_tip_calculator running in Visual Studio Code
+3. Screenshot of a1_tip_calculator running in Juypter Lab 
+4. Screenshot of a1_tip_calculator running in IDLE
 
 #### README.md file should include the following items:
 * Git commands w/short descriptions
-* Screenshot of PHP running 
-* Screenshot of JDK running 
-* Screenshot of My First App
+* Screenshot of a1_tip_calculator running in Visual Studio Code
+* Screenshot of a1_tip_calculator running in Juypter Lab 
+* Screenshot of a1_tip_calculator running in IDLE
 
 > This is a blockquote.
 > 
@@ -38,17 +38,17 @@
 
 #### Assignment Screenshots:
 
-*Screenshot of AMPPS running http://localhost*:
+* Screenshot of a1_tip_calculator running in Visual Studio Code 
 
-![AMPPS Installation Screenshot](img/PHP.png)
+![Screenshot of a1_tip_calculator running in Visual Studio Code ](img/vscode.png)
 
-*Screenshot of running java Hello*:
+* Screenshot of a1_tip_calculator running in Juypter Lab
 
-![JDK Installation Screenshot](img/jdk_install.png)
+![Screenshot of a1_tip_calculator running in Juypter Lab](img/jupyterlab.png) 
 
-*Screenshot of Android Studio - My First App*:
+* Screenshot of a1_tip_calculator running in IDLE
 
-![Android Studio Installation Screenshot](img/android.png)
+![Screenshot of a1_tip_calculator running in IDLE](img/idle.png)
 
 
 #### Tutorial Links:
