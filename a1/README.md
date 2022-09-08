@@ -38,17 +38,19 @@
 
 #### Assignment Screenshots:
 
-* Screenshot of a1_tip_calculator running in Visual Studio Code 
+| Screenshot of a1_tip_calculator running in Visual Studio Code |
+| -------------- |
+| ![Screenshot of a1_tip_calculator running in Visual Studio Code ](img/vscode.png) |
 
-![Screenshot of a1_tip_calculator running in Visual Studio Code ](img/vscode.png)
+| Screenshot of a1_tip_calculator running in Juypter Lab |
+| -------------- |
+| ![Screenshot of a1_tip_calculator running in Juypter Lab](img/jupyterlab.png) |
 
-* Screenshot of a1_tip_calculator running in Juypter Lab
+| Screenshot of a1_tip_calculator running in IDLE |
+| -------------- |
+| ![Screenshot of a1_tip_calculator running in IDLE](img/idle.png) |
 
-![Screenshot of a1_tip_calculator running in Juypter Lab](img/jupyterlab.png) 
-
-* Screenshot of a1_tip_calculator running in IDLE
-
-![Screenshot of a1_tip_calculator running in IDLE](img/idle.png)
+#### Assignment Link:
 
 
 #### Tutorial Links:
