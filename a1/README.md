@@ -52,7 +52,7 @@
 
 #### Assignment Link:
 *Link to A1.ipynb File
-[A1.ipynb Link](a1/a1.ipynb)
+[A1.ipynb Link](a1.ipynb)
 
 #### Tutorial Links:
 
