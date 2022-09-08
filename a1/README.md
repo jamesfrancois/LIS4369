@@ -51,7 +51,8 @@
 | ![Screenshot of a1_tip_calculator running in IDLE](img/idle.png) |
 
 #### Assignment Link:
-
+*Link to A1.ipynb File
+[A1.ipynb Link](a1/a1.ipynb)
 
 #### Tutorial Links:
 
