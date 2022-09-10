@@ -13,9 +13,10 @@
     - List of git commands
 
 2. [A2 README.md](a2/README.md "My A2 README.md file")
-    - To
-    - Be
-    - Determined
+    - Screenshot of Payroll with Overtime
+    - Screenshot of Payroll with no Overtime
+    - Screenshot of a2_payroll.ipynb
+    - Link for a2_payroll.ipynb
 
 3. [A3 README.md](a3/README.md "My A3 README.md file")
     - To
