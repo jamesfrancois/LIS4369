@@ -1,11 +1,22 @@
+    # Developer: James Francois
+
+
+    # Course: LIS4369 
+
+
+    # Semester: FALL 2022
 def get_requirements():
-    print('''   ''')
-print('''
-    1. must use float data type for user input.
-    2. Overtime rate is 1.5 times hourly rate (hours over 40).
-    3. Holiday rate is 2.0 times hourly.
-    4. Must format with dollar sign and round to 2 decimal places
-    5. Create three functions ''')
+    print("Payroll Calculator")
+print("\nProgram Requirements:\n"
+    + "1. Must use float data type for user input."
+    + "2. Overtime rate is 1.5 times hourly rate (hours over 40).\n"
+    + "3. Holiday rate is 2.0 times hourly.\n"
+    + "4. Must format with dollar sign and round to 2 decimal places.\n"
+    + "5. Create at least three functions that are called by the program:\n"
+    +   "\ta. main(): calls at least two other functions.\n"
+    +   "\tb. get_requirements(): displays the program requirements.\n"
+    +   "\tc. calculate_payroll(): calculates an indvidual one-week paycheck.\n" )
+     
 
 #all calculations
 def calculate_payroll(week, holiday, pay):
@@ -41,4 +52,4 @@ def main():
     calculate_payroll(weeklyhrs, holidayhrs, payhr)
     
 if __name__ == "__main__":
-    pass
+    main()

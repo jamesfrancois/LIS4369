@@ -8,38 +8,36 @@
 
 *Sub-Heading:*
 
-1. Screenshot of running application's first user interface
-2. Screenshot of running application's second user interface
-3. Skillsets
+1. Screenshot of Payroll with no Overtime
+2. Screenshot of Payroll with Overtime
+3. Screenshot of payroll running in Juypter Lab
+4. Skillsets
 
 #### README.md file should include the following items:
 
-* Screenshot of running application's first user interface
-* Screenshot of running application's second user interface
+* Screenshot of Payroll with no Overtime
+* Screenshot of Payroll with Overtime
+* Screenshot of payroll running in Juypter Lab
 * Skillsets
 
 #### Assignment Screenshots:
 
-*Screenshot of running First User Interface
+| Screenshot of Payroll with no Overtime | Screenshot of Payroll with Overtime |
+| -------------- | -------------- |
+| ![Screenshot of Payroll with no Overtime  ](img/noovertime.png) | ![Screenshot of Payroll with Overtime ](img/overtime.png) |
 
-![First user interface Screenshot](img/First.png) 
+| Screenshot of payroll running in Juypter Lab | Screenshot of Skillset 1 |
+| -------------- | -------------- |
+| ![Screenshot of a2_payroll running in Juypter Lab](img/jupyterlab.png) | ![Screenshot of Skillset 1 ](img/skillset1.png) |
 
-*Screenshot of running Second User Interface
+| Screenshot of Skillset 2 | Screenshot of Skillset 3 |
+| -------------- | -------------- |
+| ![Screenshot of Skillset 2 ](img/skillset2.png) | ![Screenshot of Skillset 3 ](img/skillset3.png) |
 
-![Second user interface Screenshot](img/Second.png)
 
-*Screenshot of Skillset 1 
-
-![Skillset 1: Even or Odd](img/Skillset1.png) 
-
-*Screenshot of Skillset 2 
-
-![Skillset 2: Largest Number](img/Skillset2.png)
-
-*Screenshot of Skillset 3
-
-![Skillset 3: Arrays & Loops](img/Skillset3.png)
-
+#### Assignment Link:
+*Link to A2.ipynb File:*
+[A2.ipynb](a2.ipynb)
 
 #### Tutorial Links:
 
