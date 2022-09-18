@@ -15,8 +15,8 @@
 2. [A2 README.md](a2/README.md "My A2 README.md file")
     - Screenshot of Payroll with Overtime
     - Screenshot of Payroll with no Overtime
-    - Screenshot of a2_payroll.ipynb
-    - Link for a2_payroll.ipynb
+    - Screenshot of payroll running in Juypter Notebook
+    - Screenshots of Skillsets 1-3 
 
 3. [A3 README.md](a3/README.md "My A3 README.md file")
     - To
