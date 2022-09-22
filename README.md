@@ -2,7 +2,7 @@
 
 ## James Francois
 
-### Class Number Requirements:
+### LIS 4369 Requirements:
 
 *Course Work Links:*
 
