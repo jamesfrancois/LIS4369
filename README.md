@@ -22,6 +22,7 @@
      - Assignment requirements, as per A1 
      - Screenshot as per example below, and include Jupyter Notebook screenshot 
      - Upload A3 .ipynb file and create link in README.md
+     - Screenshots of Skillsets 4-6
     
 4. [A4 README.md](a4/README.md "My A4 README.md file")
     - To
