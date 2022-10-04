@@ -20,10 +20,13 @@
 
 #### Assignment Screenshots:
 
-| Screenshot of Painting Estimator |
-| -------------- |
-| ![Screenshot of Payroll with no Overtime  ](img/jupyterlab.png) |
+| Screenshot of Painting Estimator | Screenshot of Skillset 4 |
+| -------------- | -------------- |
+| ![Screenshot of Painting Estimator ](img/jupyterlab.png) | ![Screenshot of Skillset 4](img/skillset4.png) |
 
+| Screenshot of Skillset 5 | Screenshot of Skillset 6 |
+| -------------- | -------------- |
+| ![Screenshot of Skillset 5 ](img/skillset5.png) | ![Screenshot of Skillset 6 ](img/skillset6.png) |
 
 
 *Link to A3.ipynb File:*
