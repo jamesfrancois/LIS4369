@@ -1,62 +1,35 @@
 > **NOTE:** This README.md file should be placed at the **root of each of your main directory.**
 
-# LIS 4381 
+# LIS 4369
 
 ## James Francois
 
 ### Assignment 3 Requirements:
 
-*Sub-Heading:*
-
-1. Screenshot of ERD; 
-2. Screenshot of running applications opening user interface; 
-3. Screenshot of running applications processing user input; 
-4. Screenshots of 10 records for each table; 
-5. Links to the following files: a3.mwb, a3.sql; 
+1. Assignment requirements, as per A1. 
+2. Screenshot as per example below, and include Jupyter Notebook screenshot. 
+3. Upload A3 .ipynb file and create link in README.md;  
+4. Screenshots of Skillsets 4-6
 
 #### README.md file should include the following items:
 
-* Screenshot of ERD; 
-* Screenshot of running applications opening user interface; 
-* Screenshot of running applications processing user input; 
-* Screenshots of 10 records for each table; 
-* Links to the following files: a3.mwb, a3.sql; 
+* Assignment requirements, as per A1. 
+* Screenshot as per example below, and include Jupyter Notebook screenshot. 
+* Upload A3 .ipynb file and create link in README.md;  
+* Screenshots of Skillsets 4-6
 
 #### Assignment Screenshots:
 
-*Screenshot of ERD
+| Screenshot of Painting Estimator |
+| -------------- |
+| ![Screenshot of Payroll with no Overtime  ](img/jupyterlab.png) |
 
-![First user interface Screenshot](img/Erd.png) 
 
-*Screenshot of running applications opening user interface 
 
-![Second user interface Screenshot](img/First.png)
+*Link to A2.ipynb File:*
+[A3.ipynb](a3.ipynb)
 
-*Screenshot of running applications processing user input; 
 
-![Running applications processing user input](img/Second.png) 
-
-*Screenshots of 10 records for each table; 
-
-![Screenshots of 10 records for each table](img/Datatables.png)
-
-*Screenshot of Skillset 4
-
-![Skillset 4: Phone Types](img/Skillset4.png)
-
-*Screenshot of Skillset 5
-
-![Skillset 5: Random Number Generator](img/Skillset5.png)
-
-*Screenshot of Skillset 6
-
-![Skillset 6: Methods](img/Skillset6.png)
-
-*Link to a3.mwb
-[a3.mwb](docs/a3.mwb)
-
-*Link to a3.sql
-[a3.sql](docs/a3.sql)
 
 
 
