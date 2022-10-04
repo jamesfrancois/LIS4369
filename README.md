@@ -18,7 +18,7 @@
     - Screenshot of payroll running in Juypter Notebook
     - Screenshots of Skillsets 1-3 
 
-   [A3 README.md](a3/README.md "My A3 README.md file")
+3. [A3 README.md](a3/README.md "My A3 README.md file")
      - Assignment requirements, as per A1 
      - Screenshot as per example below, and include Jupyter Notebook screenshot 
      - Upload A3 .ipynb file and create link in README.md
