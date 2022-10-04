@@ -26,7 +26,7 @@
 
 
 
-*Link to A2.ipynb File:*
+*Link to A3.ipynb File:*
 [A3.ipynb](a3.ipynb)
 
 
