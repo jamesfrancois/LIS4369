@@ -6,20 +6,22 @@
 
     # Semester: FALL 2022
 def get_requirements():
-    print("Developer: James S. Francois")
-    print("Painting Estimator")
-    print("\n1. Calculate home interior cost (without primer).\n")
-    print("\n2. Must use float data types.\n" )
-    print("\n3. Must use SQFT_PER_GALLON constant.\n")
-    print("\n4. Must use iteration structure (aka loop).\n" )
-    print("\n5. Format, right align, and round to two decimal places.\n")
-    print("\n6. Create at least five functions that are called by the program:\n"
-        + "a. main(): calls two other functions: get_requirements() and estimate_paint_cost()\n" 
-        + "b. get_requirements(): displays the program requirements.\n"
-        + "c. estimate_painting_cost(): calculates interior home painting, and calls print function.\n"
-        + "d. print_painting_estimate(): displays painting costs.\n"
-        + "e. print_painting_percentage(): displays painting costs percentages.\n")
     print()
+print("Developer: James S. Francois")
+print("Painting Estimator")
+print("\nProgram Requirements:\n"
+        + "\n1. Calculate home interior cost (without primer).\n"
+        +"\n2. Must use float data types.\n" 
+        +"\n3. Must use SQFT_PER_GALLON constant.\n"
+        +"\n4. Must use iteration structure (aka loop).\n" 
+        +"\n5. Format, right align, and round to two decimal places.\n"
+        +"\n6. Create at least five functions that are called by the program:\n"
+            +"\ta. main(): calls two other functions: get_requirements() and estimate_paint_cost()\n" 
+            +"\tb. get_requirements(): displays the program requirements.\n"
+            + "\tc. estimate_painting_cost(): calculates interior home painting, and calls print function.\n"
+            + "\td. print_painting_estimate(): displays painting costs.\n"
+            + "\te. print_painting_percentage(): displays painting costs percentages.\n")
+        
 
 # global variable
 SQFT_PER_GALLON = 350.00
