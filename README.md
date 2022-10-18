@@ -35,9 +35,10 @@
     - Determined
 
 6. [P1 README.md](p1/README.md "My P1 README.md file")
-    - To
-    - Be
-    - Determined
+    - Assignment requirements, as per A1. 
+    - Screenshots of Jupyter Notebook screenshot, and graph. 
+    - Upload P1.ipynb file and create link in README.md; 
+    - Screenshot of Skillsets 7-9
 
 7. [P2 README.md](p2/README.md "My P2 README.md file")
     - To
