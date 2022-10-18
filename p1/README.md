@@ -18,11 +18,11 @@
 
 #### Assignment Screenshots:
 
-| Screenshot of Painting Estimator in Juypter Labs | Screenshot of Painting Estimator in IDLE |
+| Screenshot of Juypter Labs | Screenshot of IDLE |
 | -------------- | -------------- |
 | ![Screenshot of Juypter Labs ](img/jupyterlab.png) | ![Screenshot of IDLE](img/idle.png) |
 
-| Screenshot of Painting Estimator in Juypter Labs | Screenshot of Painting Estimator in IDLE |
+| Screenshot of Data Analysis| Screenshot of The Graph|
 | -------------- | -------------- |
 | ![Screenshot of Data Analysis ](img/requirements.png) | ![Screenshot of the Graph](img/graph.png) |
 
