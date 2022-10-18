@@ -1,10 +1,8 @@
-# LIS 4381 
+# LIS 4369 
 
 ## James Francois
 
-### Assignment 3 Requirements:
-
-*Sub-Heading:*
+### Project 1 Requirements:
 
 1. Course title, your name, assignment requirements, as per A1; 
 2. Screenshot of running applications first user interface; 
@@ -20,23 +18,11 @@
 
 #### Assignment Screenshots:
 
-*Screenshot of running applications opening user interface 
+| Screenshot of Painting Estimator in Juypter Labs | Screenshot of Painting Estimator in IDLE |
+| -------------- | -------------- |
+| ![Screenshot of Juypter Labs ](img/jupyterlab.png) | ![Screenshot of IDLE](img/idle.png) |
 
-![Second user interface Screenshot](img/First.png)
-
-*Screenshot of running applications processing user input; 
-
-![Running applications processing user input](img/Second.png) 
-
-*Screenshot of Skillset 7
-
-![Skillset 7: Random Number Generator Validation](img/Skillset7.png)
-
-*Screenshot of Skillset 8
-
-![Skillset 8: Largest of 3 Numbers](img/Skillset8.png)
-
-*Screenshot of Skillset 9
-
-![Skillset 9:Array Runtime Data Validation](img/Skillset9.png)
+| Screenshot of Painting Estimator in Juypter Labs | Screenshot of Painting Estimator in IDLE |
+| -------------- | -------------- |
+| ![Screenshot of Data Analysis ](img/requirements.png) | ![Screenshot of the Graph](img/graph.png) |
 
