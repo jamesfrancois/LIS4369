@@ -22,7 +22,14 @@
 | -------------- | -------------- |
 | ![Screenshot of Juypter Labs ](img/jupyterlab.png) | ![Screenshot of IDLE](img/idle.png) |
 
-| Screenshot of Data Analysis| Screenshot of The Graph|
+| Screenshot of Data Analysis | Screenshot of The Graph |
 | -------------- | -------------- |
 | ![Screenshot of Data Analysis ](img/requirements.png) | ![Screenshot of the Graph](img/graph.png) |
 
+| Screenshot of Skillset 7 | Screenshot of Skillset 8 |
+| -------------- | -------------- |
+| ![Screenshot of Skillset 7](img/skillset7.png) | ![Screenshot of Skillset 8](img/skillset8.png) |
+
+| Screenshot of Skillset 9 | 
+| -------------- | 
+| ![Screenshot of Skillset 9](img/skillset9.png) | 
