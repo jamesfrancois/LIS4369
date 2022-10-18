@@ -1,9 +1,10 @@
-import functions as f
+import functions as f 
 
 def main():
-    f.get_requirements ()
-    # f.user_input()
-    f.python_loops()
+    f.get_requirements()
+    f.using_sets()
+    
 
-    if __name__=="__main__":
-        main()
+
+if __name__ == "__main__":
+    main()

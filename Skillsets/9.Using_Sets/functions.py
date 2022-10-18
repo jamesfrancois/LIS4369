@@ -10,49 +10,65 @@ def get_requirements():
     +"5. Two methods to create sets:"
         +"a. Create set using curly brackets {set}: my_set = {1, 3.14, 2.0, 'four', 'Five'}"
         +"b. Create set using set() function: my_set = set(<iterable>)"
-    +"6. 6. Create a program that mirrors the following IPO (input/process/output) format.")
+    +"6. Create a program that mirrors the following IPO (input/process/output) format.")
  
-def print_type():
-    # declare set using brackets
-    my_set = {1, 'domino', 'domingo', 44.0, ('la', 'le', 'lo') }
-    # declare set using built-in set method with brackets
-    my_set1 = set([1, 2, 3, 'four', 'five'])
-    # declare set using built in set() method using parenthasis
-    my_set2 = set(('this', 'is', 'fun'))
-    # printing sets to screen
+def using_sets():
+    my_set = {1, 3.14, 2.0, 'four', 'Five'}
+    print("Print my_set created using curly brackets:")
     print(my_set)
-    print(my_set1)
-    print(my_set2)
-    # printing set types to make sure they are sets
-    print(type(my_set))
-    print(type(my_set1))
-    print(type(my_set2))
-    #print length of set 1
-    print(len(my_set))
-    # deleting items in set using discard() and remove(). Discard does not raise a typeError if item is not found
-    my_set.discard('domino')
-    print(my_set)
-    my_set.remove('domingo')
-    print(my_set)
-    print(len(my_set))
-    # adding an element  to a set
-    my_set.add('addition')
-    # more deleting items in set
-    my_set1.discard('four')
-    my_set1.discard('five')
-    print(len(my_set1))
-    print(len(my_set))
-    # python built in functions for comparing items in set. Must all be same datatype
-    print(max(my_set1))
-    print(min(my_set1))
-    print(sum(my_set1))
-    #using set function clear() to clear the set
-    my_set1.clear()
-    print(len(my_set1))
-    
-def main():
-    get_requirements()
-    print_type()
 
-if __name__ == "__main__":
-    main()
+    print("\nPrint type of my set:")
+    print(type(my_set))
+
+    my_set1 = set([1, 3.14, 2.0, 'four', 'Five'])
+    print("\nPrint my_set1 created using set() function with list:")
+    print(my_set1)
+
+    print("\nPrint type of my_set1:")
+    print(type(my_set1))
+
+    my_set2 = set((1, 3.14, 2.0, 'four', 'Five'))
+    print("\nPrint my_set2 created using set() function with tuple:")
+    print(my_set2)
+
+    print("\nPrint type of my_set2:")
+    print(type(my_set2))
+
+    print("\nLength of my_set:")
+    print(len(my_set))
+
+    print("\nDiscard 'four'")
+    my_set.discard('four')
+    print(my_set)
+
+    print("\nRemove 'Five':")
+    my_set.remove('Five')
+    print(my_set)
+
+    print("\nLength of my_set:")
+    print(len(my_set))
+
+    print("\nAdd element to set (4) using add() method:")
+    my_set.add(4)
+    print(my_set)
+
+    print("\nLength of my_set:")
+    print(len(my_set))
+
+    print("\nDisplay minimum number:")
+    print(min(my_set))
+
+    print("\nDisplay maximum number:")
+    print(max(my_set))
+
+    print("\nDisplay sum of numbers:")
+    print(sum(my_set))
+
+    print("\nDelete all set elements:")
+    my_set.clear()
+    print(my_set)
+
+    print("\nLength of my_set:")
+    print(len(my_set))
+
+
