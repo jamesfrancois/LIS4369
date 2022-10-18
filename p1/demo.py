@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 import datetime # datetime is an object that you can call classes like date and time. those class then have their own functions
 
 def get_requirements():
-    print("Developer: James S. Francois)
     print("\n1. Run demo.py"
         +"\n2. If errors, more than likely missing installations."
         +"\n3. Test Python Package installer: pip freeze"

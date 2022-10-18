@@ -18,9 +18,9 @@
 
 #### Assignment Screenshots:
 
-| Screenshot of Juypter Labs | Screenshot of IDLE |
+| Screenshot of Juypter Labs | Screenshot of VS Code |
 | -------------- | -------------- |
-| ![Screenshot of Juypter Labs ](img/jupyterlab.png) | ![Screenshot of IDLE](img/idle.png) |
+| ![Screenshot of Juypter Labs ](img/jupyterlab.png) | ![Screenshot of VS Code](img/vscode.png) |
 
 | Screenshot of Data Analysis | Screenshot of The Graph |
 | -------------- | -------------- |
@@ -33,3 +33,6 @@
 | Screenshot of Skillset 9 | 
 | -------------- | 
 | ![Screenshot of Skillset 9](img/skillset9.png) | 
+
+*Link to p1.ipynb File:*
+[P1.ipynb](p1.ipynb)
