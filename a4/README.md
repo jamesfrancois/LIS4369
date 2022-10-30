@@ -1,4 +1,4 @@
-# LIS 4381 
+# LIS 4369 
 
 ## James Francois
 
@@ -6,49 +6,71 @@
 
 *Sub-Heading:*
 
-1. Course title, your name, assignment requirements, as per A1;
-2. Screenshot of Failed Validation
-3. Screenshot of Passed Validation 
-4. Screenshots of Skillsets
-5. Link to local lis4381 web app:
+1. Assignment requirements, as per A1. 
+2. Screenshot as per example below, and include Jupyter Notebook screenshot. 
+3. Upload A4.ipynb file and create link in README.md;  
+4. Screenshots of Skillsets 10-12
 
 #### README.md file should include the following items:
 
-* Course title, your name, assignment requirements, as per A1;
-* Screenshot of Failed Validation 
-* Screenshot of Passed Validation 
-* Screenshots of Skillsets
-* Link to local lis4381 web app: 
+* Assignment requirements, as per A1. 
+* Screenshot as per example below, and include Jupyter Notebook screenshot. 
+* Upload A4.ipynb file and create link in README.md;  
+* Screenshots of Skillsets 10-12
 
 #### Assignment Screenshots:
 
-*Link to local lIS4381 Web App
+| Screenshot of Visual Studio Code | Screenshot of Skillset 10 |
+| -------------- | -------------- |
+| ![Screenshot of Visual Studio Code](img/vscode.png) | ![Screenshot of Skillset 10](img/skillset10.png) |
 
-[Link to local lis4381 web app](http://localhost:8080/repos/lis4381/index.php)
+| Screenshot of Skillset 11| Screenshot of Skillset 12 |
+| -------------- | -------------- |
+| ![Screenshot of Skillset 11](img/skillset11.png) | ![ Screenshot of Skillset 12](img/skillset12.png) |
 
-*LIS 4381 Portal (Main Page)
+| Screenshot of Juypter Labs 1| Screenshot of Juypter Labs 2|
+| -------------- | -------------- |
+| ![Screenshot of Juypter Labs 1](img/juypterlabs1.png) | ![Screenshot of Juypter Labs 2](img/juypterlabs2.png) |
 
-![LIS 4381 Portal (Main Page)](img/homepage.png) 
+| Screenshot of Juypter Labs 3| Screenshot of Juypter Labs 4 |
+| -------------- | -------------- |
+| ![Screenshot of Juypter Labs 3](img/juypterlabs3.png) | ![Screenshot of Juypter Labs 4](img/juypterlabs4.png) |
 
-*Failed Validation 
+| Screenshot of Juypter Labs 5| Screenshot of Juypter Labs 6|
+| -------------- | -------------- |
+| ![Screenshot of Juypter Labs 5](img/juypterlabs5.png) | ![Screenshot of Juypter Labs 6](img/juypterlabs6.png) |
 
-![Failed Validation ](img/invalid.png)
+| Screenshot of Juypter Labs 7| Screenshot of Juypter Labs 8 |
+| -------------- | -------------- |
+| ![Screenshot of Juypter Labs 7](img/juypterlabs7.png) | ![Screenshot of Juypter Labs 8](img/juypterlabs8.png) |
 
-*Passed Validation 
 
-![Passed Validation ](img/valid.png) 
+| Screenshot of Juypter Labs 9| Screenshot of Juypter Labs 10|
+| -------------- | -------------- |
+| ![Screenshot of Juypter Labs 9](img/juypterlabs9.png) | ![Screenshot of Juypter Labs 10](img/juypterlabs10.png) |
 
-*Screenshot of Skillset 10
+| Screenshot of Juypter Labs 11| Screenshot of Juypter Labs 12 |
+| -------------- | -------------- |
+| ![Screenshot of Juypter Labs 11](img/juypterlabs11.png) | ![Screenshot of Juypter Labs 12](img/juypterlabs12.png) |
 
-![Skillset 10: Array List](img/Skillset10.png)
 
-*Screenshot of Skillset 11
+| Screenshot of Juypter Labs 13| Screenshot of Juypter Labs 14|
+| -------------- | -------------- |
+| ![Screenshot of Juypter Labs 13](img/juypterlabs13.png) | ![Screenshot of Juypter Labs 14](img/juypterlabs14.png) |
 
-![Skillset 11: Alpha Numeric & Special](img/Skillset11.png)
+| Screenshot of Juypter Labs 15| Screenshot of Juypter Labs 16 |
+| -------------- | -------------- |
+| ![Screenshot of Juypter Labs 15](img/juypterlabs15.png) | ![Screenshot of Juypter Labs 16](img/juypterlabs16.png) |
 
-*Screenshot of Skillset 12
 
-![Skillset 12: Temperature Conversion](img/Skillset12.png)
+| Screenshot of Juypter Labs 17| 
+| -------------- | 
+| ![Screenshot of Juypter Labs 17](img/juypterlabs17.png) |
+
+
+*Link to A4.ipynb File:*
+[A4.ipynb](a4.ipynb)
+
 
 #### Tutorial Links:
 
