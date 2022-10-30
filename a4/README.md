@@ -22,11 +22,11 @@
 
 | Screenshot of Visual Studio Code | Screenshot of Skillset 10 |
 | -------------- | -------------- |
-| ![Screenshot of Visual Studio Code](img/vscode.png) | ![Screenshot of Skillset 10](img/skillset10.png) |
+| ![Screenshot of Visual Studio Code](img/vscode.png) | ![Screenshot of Skillset 10](img/skillsets10.png) |
 
 | Screenshot of Skillset 11| Screenshot of Skillset 12 |
 | -------------- | -------------- |
-| ![Screenshot of Skillset 11](img/skillset11.png) | ![ Screenshot of Skillset 12](img/skillset12.png) |
+| ![Screenshot of Skillset 11](img/skillsets11.png) | ![ Screenshot of Skillset 12](img/skillsets12.png) |
 
 | Screenshot of Juypter Labs 1| Screenshot of Juypter Labs 2|
 | -------------- | -------------- |
