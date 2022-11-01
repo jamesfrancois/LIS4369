@@ -63,9 +63,9 @@
 | ![Screenshot of Juypter Labs 15](img/juypterlabs15.png) | ![Screenshot of Juypter Labs 16](img/juypterlabs16.png) |
 
 
-| Screenshot of Juypter Labs 17| 
-| -------------- | 
-| ![Screenshot of Juypter Labs 17](img/juypterlabs17.png) |
+| Screenshot of Juypter Labs 17| Screenshot of IDLE| 
+| -------------- | -------------- | 
+| ![Screenshot of Juypter Labs 17](img/juypterlabs17.png) | ![Screenshot of IDLE](img/idle.png) |
 
 
 *Link to A4.ipynb File:*
