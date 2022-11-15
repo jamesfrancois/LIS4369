@@ -31,9 +31,11 @@
     - Screenshots of Skillsets 10-12
 
 5. [A5 README.md](a5/README.md "My A5 README.md file")
-    - To
-    - Be
-    - Determined
+    - Complete tutourial Intro_to_R_setup
+    - Code and run lis4369_a5.r
+    - Include at least two 4-panel R Studio screenshots
+    - Include links for both in a5 README.md
+    - Screenshots of Skillsets 13-15
 
 6. [P1 README.md](p1/README.md "My P1 README.md file")
     - Assignment requirements, as per A1. 
