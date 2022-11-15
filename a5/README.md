@@ -1,4 +1,4 @@
-# LIS 4381 
+# LIS 4369 
 
 ## James Francois
 
@@ -6,62 +6,45 @@
 
 *Sub-Heading:*
 
-1. Course title, your name, assignment requirements, as per A1; 
-2. Screenshots of Petstore operations
-3. Screenshots of Skillsets 
+1. Complete tutourial Intro_to_R_setup
+2. Code and run lis4369_a5.r
+3. Include at least two 4-panel R Studio screenshots
+4. Include links for both in a5 README.md
+5. Screenshots of Skillsets 13-15
 
 #### README.md file should include the following items:
 
-* Course title, your name, assignment requirements, as per A1; 
-* Screenshots of Petstore operations
-* Screenshots of Skillsets 
+* Complete tutourial Intro_to_R_setup
+* Code and run lis4369_a5.r
+* Include at least two 4-panel R Studio screenshots
+* Include links for both in a5 README.md
+* Screenshots of Skillsets 13-15
 
 #### Assignment Screenshots:
 
-*Screenshot of Petstore Index 
+*Screenshot of learn_to_use_r.R (RStudio 4-panel Screenshot) 
 
-![Petstore Index](img/index.png)
+![4 Panels](img/tutorial.png)
 
-*Screenshot of Failed Validation Add Petstore; 
+*Screenshot of learn_to_use_r.R (Graph 1)
 
-![Invalid Petstore](img/failed_validation.png) 
+![Graph 1](img/a5_3.png)
 
-*Screenshot of invalid Add Petstore Error; 
+*Screenshot of learn_to_use_r.R (Graph 2)
 
-![Invalid add petstore](img/error.png) 
+![Graph 2](img/a5_3.png)
 
-*Screenshot of Valid Add Petstore ; 
+*Screenshot of lis4369_a5.R (RStudio 4-panel Screenshot) 
 
-![Running applications processing user input](img/valid.png) 
+![4 panels](img/a5.png)
 
-*Screenshot of Passed Validation; 
+*Screenshot of lis4369_a5.R (Graph 1)
 
-![Running applications processing user input](img/passed_validation.png) 
+![Graph 1](img/a5_1.png)
 
-*Screenshot of Skillset 13
+*Screenshot of lis4369_a5.R (Graph 2)
 
-![Skillset 13: Sphere Volume Calculator](img/Skillset13.png)
+![Graph 2](img/a5_2.png)
 
-*Screenshot of Skillset 14 Index Addition
 
-![Skillset 14: Simple Calculator](img/addition_index.png)
 
-*Screenshot of Skillset 14 Process Addition
-
-![Skillset 14:Simple Calculator](img/addition_process.png)
-
-*Screenshot of Skillset 14 Process Divison
-
-![Skillset 14:Simple Calculator](img/divison_index.png)
-
-*Screenshot of Skillset 14 Process Divison
-
-![Skillset 14:Simple Calculator](img/divison_process.png)
-
-*Screenshot of Skillset 15 Index 
-
-![Skillset 15:Write Read File](img/Skillset15_index.png)
-
-*Screenshot of Skillset 15 Process
-
-![Skillset 15:Write Read File](img/Skillset15_process.png)
