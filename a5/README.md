@@ -32,7 +32,7 @@
 
 *Screenshot of learn_to_use_r.R (Graph 2)
 
-![Graph 2](img/a5_3.png)
+![Graph 2](img/a5_4.png)
 
 *Screenshot of lis4369_a5.R (RStudio 4-panel Screenshot) 
 
