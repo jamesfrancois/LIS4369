@@ -20,6 +20,14 @@
 * Include links for both in a5 README.md
 * Screenshots of Skillsets 13-15
 
+#### Assignment Links:
+
+*Link to lis4359_a5.r File:*
+[lis4369_a5.r](lis4369_a5.R)
+
+*Link to Intro_to_R_setup.r File:*
+[intro_to_R_setup.r](learn_to_use_r.R)
+
 #### Assignment Screenshots:
 
 *Screenshot of learn_to_use_r.R (RStudio 4-panel Screenshot) 
@@ -45,6 +53,22 @@
 *Screenshot of lis4369_a5.R (Graph 2)
 
 ![Graph 2](img/a5_2.png)
+
+#### Skillsets Screenshots
+
+*Screenshot of Skillset 13 
+
+![Skillset 13](img/skillset13.png)
+
+*Screenshot of Skillset 14
+
+![Skillset 14](img/skillset14.png)
+
+*Screenshot of Skillset 15
+
+![Skillset 15](img/skillset15.png)
+
+
 
 
 
