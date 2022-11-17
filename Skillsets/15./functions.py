@@ -1,67 +1,54 @@
+
+
+import os
+
 def get_requirements():
-    print("\nPython Dictionaries")
-    print()
+    print("Developer: James S. Francois")
     print("Program Requirements:")
-    print("1. Dictionaries (Python data structure): unordered key:value pairs.")
-    print("2. Dictionary: an associative array (also known as hashes")
-    print("3. Any key in a dictionary is associated (or mapped) to a value (i.e., any Python data type.")
-    print("4. Keys: must be of immutable type (string, number or tuple with immutable elements) and must be unique.")
-    print("5. Values: can be of any data type and can repeat.")
-    print("6. Create a program that mirrors the following IPO (input/process/output) format.")
-    print("\tCreate empty dictionary, using curly braces \{\}: my_dictionary = \{\}")
-    print("\tUse the following keys: fname, lname, degree, major, gpa")
-    print("Note: Dictionaries have key-value pairs instead of single values; this differentiates a dictionary from a set.")
-    print()
+    print("1. Create write_read_file subdirectory with two files: main.py and functions.py.")
+    print("2. Use President Abraham Lincoln's Gettysburg Address: Full Text")
+    print("3. Write address to file.")
+    print("4. Read address from same file.")
+    print("5. Create Python Docstrings for functions in functions.py file.")
+    print("6. Display Python Docstrings for each function in functions.py file.")
+    print("7. Display full file path.")
+    print("8. Replicate display below.")
 
-def using_dictionaries():
-    print("Input:")
-    fname = input("First Name: ")
-    lname = input("Last name: ")
-    degree = input("Degree: ")
-    major = input("Major (IT or ICT): ")
-    gpa = input("GPA: ")
-    print()
+    print("\nHelp on function write_read_file in module functions: ")
+    print("Write_read file()")
+    print("\tUsage: Calls two functions:")
+    print("\t 1. file write() # writes to file")
+    print("\t 2. file read() # reads from file")
+    print("\tParameters: none")
+    print("\tReturns: none")
+    print("\nHelp on function file write in module functions:")
+    print("file write()")
+    print("\tUsage: creates file, and writes contents of global variable to file")
+    print("\tParameters: none")
+    print("\tReturns: none")
+    print("\nHelp on function file_read in module functions:")
+    print("file_read()")
+    print("\tUsage: reads contents of written file")
+    print("\tParameters: none")
+    print("\tReturns: none\n")
 
-    print("Output:")
-    my_dictionary = {"fname": fname, "lname": lname, "degree": degree, "major": major, "gpa": gpa}
-    print("Print my_dictionary: ")
-    print(my_dictionary)
+def file_write():
 
-    print("\nReturn view of dictionary's (key, value) pair, built-in function:")
-    print(my_dictionary.items())
+    f = open("tests.txt", "w")
+    f.write("President Abraham Lincoln's Gettysburg Address: \nFourscore and seven years ago our fathers brought forth, on this continent, a new nation, conceived in liberty, and dedicated to the proposition that all men are created equal. Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived, and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting-place for those who here gave their lives, that that nation might live. It is altogether fitting and proper that we should do this. But, in a larger sense, we cannot dedicate, we cannot consecrate—we cannot hallow—this ground. The brave men, living and dead, who struggled here, have consecrated it far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us—that from these honored dead we take increased devotion to that cause for which they here gave the last full measure of devotion—that we here highly resolve that these dead shall not have died in vain—that this nation, under God, shall have a new birth of freedom, and that government of the people, by the people, for the people, shall not perish from the earth.")
+    f.write("\n\nFull File Path: ")
+    f.write(os.path.realpath(f.name))
+    f.close()
 
-    print("\nReturn view object of all keys, built-in function:")
-    print(my_dictionary.keys())
+def file_read():
+    f = open("tests.txt", "r")
+    print(f.read())
 
-    print("\nReturn view object of all values in dictionary, built-in function:")
-    print(my_dictionary.values())
-
-    print("\nPrint only first and last names, using keys: ")
-    print(my_dictionary['fname'], my_dictionary['lname'])
-
-    print("\nPrint only first and last names, using get() function: ")
-    print(my_dictionary.get("fname"), my_dictionary.get("lname"))
-
-    print("\nCount number of item (key: value pairs) in dictionary: ")
-    print(len(my_dictionary))
-
-    print("\nRemove last dictionary item (popitem):")
-    my_dictionary.popitem()
-    print(my_dictionary)
-
-    print("\nDelete major from dictionary, using key:")
-    del my_dictionary["major"]
-    print(my_dictionary)
-
-    print("\nReturn object type: ")
-    print(type(my_dictionary))
-
-    print("\nDelete all items of list: ")
-    my_dictionary.clear()
-    print(my_dictionary)
-
+def write_read_file():
+    file_write()
+    file_read()
 
 def main():
     get_requirements()
-    using_dictionaries()
+    write_read_file()
 main()

@@ -1,67 +1,87 @@
+import math as m
+
 def get_requirements():
-    print("\nPython Dictionaries")
+    print("Developer: James S. Francois")
+    print("Python Calculator with Error Handling")
+    print("\n1. Program calculates two numbers, and rounds to two decimal places.")
+    print("2. Prompt user for two numbers, and a suitable operator.")
+    print("3. Use Python error handling to validate data.")
+    print("4. Test for correct arithmetic operator.")
+    print("5. Division by zero not permitted.")
+    print("6. Note: Program loops until correct input entered - numbers and arithmetic operator.")
+    print("7. Replicate display below.")
+
+def is_number(string):
+    try:
+        float(string)
+        return True
+    except ValueError:
+        return False
+
+def getNum(prompt):
+    while True:
+        try:
+            return float(input("\n" + prompt + " "))
+        except ValueError:
+            print("Not valid number!")
+
+def getOp():
+    validOperators = ['+', '-', '*', '/', '//', '%', '**']
+    print("\nSuitable Operators: +, -, *, /, // (integer division), % (modulo operator), ** (power): ")
+    while True:
+        op = input("Enter operator: ")
+        try:
+            validOperators.index(op)
+            return op
+        except ValueError:
+            print("\nInvalid operator! Try again!")
+    
+def calc():
+    num1 = getNum("Enter num1: ")
+    num2 = getNum("\nEnter num2: ")
+    op = getOp()
+    sum = 0
+
+    if op == '+':
+        sum = num1 + num2
+    elif op == '-':
+        sum = num1 - num2
+    elif op == '*':
+        sum = num1 * num2
+    elif op == '**':
+        sum = num1 ** num2
+    elif op == '%':
+        while True:
+            try:
+                sum = num1 % num2
+                break
+            except ZeroDivisionError:
+                num2 = getNum("Hey! You can't divide by zero! Re-enter num2: ")
+
+    elif op == '/':
+        while True:
+            try:
+                sum = num1 / num2
+                break 
+            except ZeroDivisionError:
+                num2 = getNum("Hey! You can't divide by zero! Re-enter num2: ")
+
+    elif op == '//':
+        while True:
+            try:
+                sum = num1 // num2
+                break 
+            except ZeroDivisionError:
+                num2 = getNum("Hey! You can't divide by zero! Re-enter num2: ")
+    
+    else:
+        print("Invalid operator! Try again!")
+    
+    print("Answer is " + str(round(sum,2)))
+    print("\nThank you for using our Math Calculator!")
     print()
-    print("Program Requirements:")
-    print("1. Dictionaries (Python data structure): unordered key:value pairs.")
-    print("2. Dictionary: an associative array (also known as hashes")
-    print("3. Any key in a dictionary is associated (or mapped) to a value (i.e., any Python data type.")
-    print("4. Keys: must be of immutable type (string, number or tuple with immutable elements) and must be unique.")
-    print("5. Values: can be of any data type and can repeat.")
-    print("6. Create a program that mirrors the following IPO (input/process/output) format.")
-    print("\tCreate empty dictionary, using curly braces \{\}: my_dictionary = \{\}")
-    print("\tUse the following keys: fname, lname, degree, major, gpa")
-    print("Note: Dictionaries have key-value pairs instead of single values; this differentiates a dictionary from a set.")
-    print()
-
-def using_dictionaries():
-    print("Input:")
-    fname = input("First Name: ")
-    lname = input("Last name: ")
-    degree = input("Degree: ")
-    major = input("Major (IT or ICT): ")
-    gpa = input("GPA: ")
-    print()
-
-    print("Output:")
-    my_dictionary = {"fname": fname, "lname": lname, "degree": degree, "major": major, "gpa": gpa}
-    print("Print my_dictionary: ")
-    print(my_dictionary)
-
-    print("\nReturn view of dictionary's (key, value) pair, built-in function:")
-    print(my_dictionary.items())
-
-    print("\nReturn view object of all keys, built-in function:")
-    print(my_dictionary.keys())
-
-    print("\nReturn view object of all values in dictionary, built-in function:")
-    print(my_dictionary.values())
-
-    print("\nPrint only first and last names, using keys: ")
-    print(my_dictionary['fname'], my_dictionary['lname'])
-
-    print("\nPrint only first and last names, using get() function: ")
-    print(my_dictionary.get("fname"), my_dictionary.get("lname"))
-
-    print("\nCount number of item (key: value pairs) in dictionary: ")
-    print(len(my_dictionary))
-
-    print("\nRemove last dictionary item (popitem):")
-    my_dictionary.popitem()
-    print(my_dictionary)
-
-    print("\nDelete major from dictionary, using key:")
-    del my_dictionary["major"]
-    print(my_dictionary)
-
-    print("\nReturn object type: ")
-    print(type(my_dictionary))
-
-    print("\nDelete all items of list: ")
-    my_dictionary.clear()
-    print(my_dictionary)
-
 
 def main():
     get_requirements()
-    using_dictionaries()
+    calc()
 main()

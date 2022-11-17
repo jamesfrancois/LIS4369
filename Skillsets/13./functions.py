@@ -1,67 +1,46 @@
+import math
+
 def get_requirements():
-    print("\nPython Dictionaries")
+    print("Developer: James S. Francois")
+    print("\nSphere Volume Program")
     print()
     print("Program Requirements:")
-    print("1. Dictionaries (Python data structure): unordered key:value pairs.")
-    print("2. Dictionary: an associative array (also known as hashes")
-    print("3. Any key in a dictionary is associated (or mapped) to a value (i.e., any Python data type.")
-    print("4. Keys: must be of immutable type (string, number or tuple with immutable elements) and must be unique.")
-    print("5. Values: can be of any data type and can repeat.")
-    print("6. Create a program that mirrors the following IPO (input/process/output) format.")
-    print("\tCreate empty dictionary, using curly braces \{\}: my_dictionary = \{\}")
-    print("\tUse the following keys: fname, lname, degree, major, gpa")
-    print("Note: Dictionaries have key-value pairs instead of single values; this differentiates a dictionary from a set.")
+    print("1. Program calculates sphere volume in liquid U.S. gallons from user-entered diameter value in inches, and rounds to two decimal places.")
+    print("2. Must use Python's *built-in* PI and pow() capabilities.")
+    print("3. Program checks for non-integers and non-numeric values.")
+    print("4. Program continues to prompt for user entry until no longer requested, prompt accepts upper or lower case letters.")
     print()
 
-def using_dictionaries():
-    print("Input:")
-    fname = input("First Name: ")
-    lname = input("Last name: ")
-    degree = input("Degree: ")
-    major = input("Major (IT or ICT): ")
-    gpa = input("GPA: ")
-    print()
+def get_volume():
+    CUBIC_INCHES_TO_GALLON = 231
+    choice = ''
 
-    print("Output:")
-    my_dictionary = {"fname": fname, "lname": lname, "degree": degree, "major": major, "gpa": gpa}
-    print("Print my_dictionary: ")
-    print(my_dictionary)
+    while True:
+        print("Input:")
+        choice = input("Do you want to calculate a sphere volume (y or n)? ").lower()
+    
+        print("\nOutput:")
 
-    print("\nReturn view of dictionary's (key, value) pair, built-in function:")
-    print(my_dictionary.items())
+        while(choice == 'y'):
 
-    print("\nReturn view object of all keys, built-in function:")
-    print(my_dictionary.keys())
+            diameter = input("Please enter diameter in inches (integers only): ")
+            if (diameter.isnumeric()):
+            #doMaTH
 
-    print("\nReturn view object of all values in dictionary, built-in function:")
-    print(my_dictionary.values())
+                radius = int(diameter) / 2
+                volume = (4/3) * math.pi * (pow(radius,3))
+                volume = volume / CUBIC_INCHES_TO_GALLON
+                print("\nSphere volume: " + str(round(volume,2)) + " liquid U.S. gallons.")
 
-    print("\nPrint only first and last names, using keys: ")
-    print(my_dictionary['fname'], my_dictionary['lname'])
-
-    print("\nPrint only first and last names, using get() function: ")
-    print(my_dictionary.get("fname"), my_dictionary.get("lname"))
-
-    print("\nCount number of item (key: value pairs) in dictionary: ")
-    print(len(my_dictionary))
-
-    print("\nRemove last dictionary item (popitem):")
-    my_dictionary.popitem()
-    print(my_dictionary)
-
-    print("\nDelete major from dictionary, using key:")
-    del my_dictionary["major"]
-    print(my_dictionary)
-
-    print("\nReturn object type: ")
-    print(type(my_dictionary))
-
-    print("\nDelete all items of list: ")
-    my_dictionary.clear()
-    print(my_dictionary)
+                choice = str(input("\nDo you want to convert another sphere volume? ")).lower()
 
 
+            else:
+                print("\nNot valid integer!")
+        else:
+            print("\nThank you for using our Sphere Volume Calculator!")
+            break
 def main():
     get_requirements()
-    using_dictionaries()
+    get_volume()
 main()
