@@ -44,6 +44,9 @@
     - Screenshot of Skillsets 7-9
 
 7. [P2 README.md](p2/README.md "My P2 README.md file")
-    - To
-    - Be
-    - Determined
+    - Assignment requirements, as per A1.
+    - Save as lis4369_p2.R. Include link to file in p2 README.md file. 
+    - Include link to lis4369_p2_output.txt file 
+    - Include at least one 4-panel RStudio screenshot executing lis4369_p2.R code. 
+    - Also, be sure to include at least two plots (*must* include *your* name in plot titles), in 
+your README.md file. See examples below. 

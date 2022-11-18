@@ -6,46 +6,32 @@
 
 *Sub-Heading:*
 
-1. Course title, your name, assignment requirements, as per A1; 
-2. Screenshot of Petstore Index 
-3. Screenshot of Edit Petstore 
-4. Screenshot of Failed Validation 
-5. Screenshot of Passed Validation 
+1. Assignment requirements, as per A1.
+2. Save as lis4369_p2.R. Include link to file in p2 README.md file. 
+3. Include link to lis4369_p2_output.txt file 
+4. Include at least one 4-panel RStudio screenshot executing lis4369_p2.R code. 
+5. Also, be sure to include at least two plots (*must* include *your* name in plot titles), in 
+your README.md file. See examples below. 
 
 #### README.md file should include the following items:
 
-* Course title, your name, assignment requirements, as per A1; 
-* Screenshot of Petstore Index 
-* Screenshot of Edit Petstore 
-* Screenshot of Failed Validation 
-* Screenshot of Passed Validation 
+* Assignment requirements, as per A1.
+* Save as lis4369_p2.R. Include link to file in p2 README.md file. 
+* Include link to lis4369_p2_output.txt file 
+* Include at least one 4-panel RStudio screenshot executing lis4369_p2.R code. 
+* Also, be sure to include at least two plots (*must* include *your* name in plot titles), in 
+your README.md file. See examples below. 
 
 #### Assignment Screenshots:
 
-*Screenshot of Petstore Index 
+*Screenshot of the 4 panels 
 
-![Petstore Index](img/index.png)
+![4 Panels](img/panel.png)
 
-*Screenshot of Edit Petstore 
+*Screenshot of first Graph
 
-![Edit Petstore](img/edit.png) 
+![Graph 1](img/graph1.png)
 
-*Screenshot of Failed Validation 
+*Screenshot of the second Graph 
 
-![Failed Validation](img/failed.png) 
-
-*Screenshot of Passed Validation 
-
-![Passed Validation](img/passed.png) 
-
-*Screenshot of Delete Prompt 
-
-![Delete Prompt](img/prompt.png) 
-
-*Screenshot of Sucessful Deleted Record
-
-![Sucessful Deleted Record](img/delete.png) 
-
-*Screenshot of RSS Feed
-
-![RSS Feed](img/rss.png) 
+![Graph 2](img/graph2.png)
