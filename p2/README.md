@@ -22,6 +22,14 @@ your README.md file. See examples below.
 * Also, be sure to include at least two plots (*must* include *your* name in plot titles), in 
 your README.md file. See examples below. 
 
+#### Assignment Links:
+
+*Link to lis4359_p2.r File:*
+[lis4369_p2.r](lis4369_p2.R)
+
+*Link to lis4369_p2_output.txt File:*
+[lis4369_p2_output.txt](lis4369_p2_output.txt)
+
 #### Assignment Screenshots:
 
 *Screenshot of the 4 panels 
@@ -35,3 +43,7 @@ your README.md file. See examples below.
 *Screenshot of the second Graph 
 
 ![Graph 2](img/graph2.png)
+
+
+
+
